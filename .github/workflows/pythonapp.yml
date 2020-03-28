@@ -28,7 +28,7 @@ jobs:
       run: |
         pip install poetry
         poetry install --no-interaction
-        pycodestyle src tests
+        poetry run pycodestyle src tests
     - name: Test with pytest
       run: |
         pip install pytest
