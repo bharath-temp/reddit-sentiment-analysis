@@ -41,6 +41,5 @@ def main():
     for elem in investing.get_comments():
         print(elem)
 
-
 if __name__ == "__main__":
     main()
