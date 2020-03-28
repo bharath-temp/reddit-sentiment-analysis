@@ -5,7 +5,6 @@ import praw
 
 from textblob import TextBlob
 
-
 class Reddit_Client():
     def __init__(self, client_id, client_secret, user_agent, sub):
         self.client_id = client_id
